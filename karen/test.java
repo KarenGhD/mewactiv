@@ -49,10 +49,10 @@ public class test {
                         if (imc>=18.5 && imc<=24.99) {
                             System.out.println("You are very good!");
                         }
-                        if(imc>=25.0 && imc<= 29.9) {
+                        if(imc>=25.0 && imc<= 29.99) {
                             System.out.println("over weight! Advise!");
                         }
-                        if(imc>=30.0 && imc<=34.9) {
+                        if(imc>=30.0 && imc<=34.99) {
                             System.out.println("Obese! Attention! Search a doctor");
                         }
                         if(imc>=35.0) {
