@@ -3,6 +3,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 public class test {
 
+
         public static void main(String[] args) {
             System.out.println("Menu");
             int option;
@@ -45,7 +46,7 @@ public class test {
                         if(imc<=18.5) {
                             System.out.println("You are underweight!");
                         }
-                        if (imc>=18.5 && imc<=24.9) {
+                        if (imc>=18.5 && imc<=24.99) {
                             System.out.println("You are very good!");
                         }
                         if(imc>=25.0 && imc<= 29.9) {
